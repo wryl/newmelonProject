@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "1.png",
+	"frame": {"x":2,"y":328,"w":135,"h":100},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":45,"w":135,"h":100},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "10.png",
+	"frame": {"x":153,"y":118,"w":145,"h":96},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":42,"w":145,"h":96},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "11.png",
+	"frame": {"x":300,"y":208,"w":143,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":43,"w":143,"h":100},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "2.png",
+	"frame": {"x":153,"y":216,"w":141,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":45,"w":141,"h":100},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "3.png",
+	"frame": {"x":2,"y":222,"w":137,"h":104},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":41,"w":137,"h":104},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "4.png",
+	"frame": {"x":104,"y":328,"w":135,"h":96},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":41,"w":135,"h":96},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "5.png",
+	"frame": {"x":310,"y":104,"w":145,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":38,"w":145,"h":102},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "6.png",
+	"frame": {"x":159,"y":2,"w":149,"h":114},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":36,"w":149,"h":114},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "7.png",
+	"frame": {"x":2,"y":110,"w":149,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":38,"w":149,"h":110},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "8.png",
+	"frame": {"x":2,"y":2,"w":155,"h":106},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":43,"w":155,"h":106},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "9.png",
+	"frame": {"x":310,"y":2,"w":147,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":44,"w":147,"h":100},
+	"sourceSize": {"w":161,"h":164}
+},
+{
+	"filename": "coin.png",
+	"frame": {"x":459,"y":2,"w":29,"h":29},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":29,"h":29},
+	"sourceSize": {"w":29,"h":29}
+}],
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "girl.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":512},
+	"scale": "0.83333",
+	"smartupdate": "$TexturePacker:SmartUpdate:c917b6ce468d1692308eb161b63fcc6c$"
+}
+}

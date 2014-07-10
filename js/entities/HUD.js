@@ -72,3 +72,23 @@ game.HUD.ScoreItem = me.Renderable.extend({
 	}
 
 });
+var BackgroundLayer = me.ImageLayer.extend({
+    init: function(image, z, speed) {
+        name = image;
+        width = 900;
+        height = 600;
+        ratio = 1;
+        this.fixed = speed > 0 ? false : true;
+        // call parent constructor
+        this.parent(name, width, height, image, z, ratio);
+    },
+
+    update: function() {
+        if (!this.fixed) {
+            if (this.pos.x >= this.imagewidth - 1)
+                this.pos.x = 0;
+            this.pos.x += this.speed;
+        }
+        return true;
+    }
+});

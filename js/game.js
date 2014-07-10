@@ -6,7 +6,12 @@ var game = {
 	data : {
 		// score
 		score : 0,
-        level:0
+        level:0,
+        yumi:0,
+        xiaomai:0,
+        rumi:0,
+        dami:0,
+        gaoliang:0
 
 	},
 	
@@ -14,7 +19,7 @@ var game = {
 	// Run on page load.
 	"onload" : function () {
 	// Initialize the video.
-	if (!me.video.init("screen", 480, 320, true, 'auto')) {
+	if (!me.video.init("screen", 640,640, true)) {
 		alert("Your browser does not support HTML5 canvas.");
 		return;
 	}
@@ -43,8 +48,10 @@ var game = {
 	"loaded" : function () {
 		me.state.set(me.state.MENU, new game.TitleScreen());
 		me.state.set(me.state.PLAY, new game.PlayScreen());
-
+        me.pool.register("mainPlayer", game.mainPlayer);
+        me.pool.register("CoinEntity", game.CoinEntity);
+        game.texture = new me.TextureAtlas(me.loader.getJSON("player"), me.loader.getImage("player"));
 		// Start the game.
-		me.state.change(me.state.PLAY   );
+		me.state.change(me.state.PLAY);
 	}
 };
